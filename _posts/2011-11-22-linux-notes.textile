@@ -1,0 +1,55 @@
+---
+layout: post
+title: Linux使用手记
+---
+
+h1. {{ page.title }}
+
+h2. 命令
+
+* 配置文件路径
+
+bc. # 网络配置
+/etc/network/interface
+# DNS服务器配置
+/etc/resolv.conf
+
+* 显示网络信息，包括IP地址、数据包接收、发送情况
+
+bc. $ ifconfig
+
+* 显示无线网络信息
+
+bc. $ iwconfig
+
+* 启用和禁用网络接口
+
+bc. $ ifup interface
+$ ifdown interface
+
+* 查看本机开放端口
+
+bc. $ netstat -lnp
+
+* 查找执行文件路径，例：nginx
+
+bc. $ whereis nginx
+
+* 查看指定进程数，如httpd
+
+bc. $ ps -ef | grep httpd | wc -l
+
+*  文件和目录批量操作
+
+bc.. # 文件设置权限
+find . -type f -exec chmod 644 {} \;
+# 目录设置权限
+find . -type d -exec chmod 755 {}\;
+
+h2. 问题
+
+* 密钥权限问题不能使用(WARNING: UNPROTECTED PRIVATE KEY FILE!)
+
+bc. chmod 755 ~/.ssh/  
+chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub   
+chmod 644 ~/.ssh/known_hosts

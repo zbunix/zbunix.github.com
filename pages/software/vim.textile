@@ -1,0 +1,34 @@
+---
+layout: default
+title: Vim - Software
+---
+
+h1. Vim
+
+h3. Plugins
+* "Ack":http://www.vim.org/scripts/script.php?script_id=2572 ("github":https://github.com/mileszs/ack.vim) - 快速检索插件
+* "Command-T":http://www.vim.org/scripts/script.php?script_id=3025 / "ctrlp":http://kien.github.com/ctrlp.vim/ - 快速匹配打开文件
+* "ctags":http://ctags.sourceforge.net/ - 语法元素扫描记录工具
+* "MattchTag":http://www.vim.org/scripts/script.php?script_id=3818 - html标签高量匹配
+* "NERDTree":http://www.vim.org/scripts/script.php?script_id=1658 - 文件树列表
+* "Indent Guides":http://www.vim.org/scripts/script.php?script_id=3361 - 缩进提示线
+* "Powerline":https://github.com/Lokaltog/vim-powerline - 强大实用美观的状态条
+* "Rails":http://www.vim.org/scripts/script.php?script_id=1567 - rails开发必备利器
+* "snipMate":http://www.vim.org/scripts/script.php?script_id=2540 - 类似Textmate的代码自动补全插件
+
+h3. Color Theme
+* "Color Theme Test":http://code.google.com/p/vimcolorschemetest/
+* "Solarized":http://ethanschoonover.com/solarized
+* "rootwater":http://vimcolorschemetest.googlecode.com/svn/colors/rootwater.vim
+* "ps_color":http://vimcolorschemetest.googlecode.com/svn/colors/ps_color.vim
+
+h3. Install Script
+* "janus":https://github.com/carlhuda/janus
+
+h3. Other
+* "Vim官方网站":http://www.vim.org/
+* "MacVim":https://github.com/b4winckler/macvim/downloads
+* "Vim在线视频教程":http://vimcasts.org/
+* "闲耘整理的Vim Wiki":http://wiki.hotoo.me/Vim.html
+* "Vim图表":http://michael.peopleofhonoronly.com/vim/
+* "Vim图表2":http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png

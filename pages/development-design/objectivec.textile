@@ -1,0 +1,81 @@
+---
+layout: default
+title: ObjectiveC
+---
+
+h1. ObjectiveC
+
+h3. Utility Tools
+* "Objective-C Runtime Bowser":https://github.com/nst/RuntimeBrowser
+* "F-Script":http://www.fscript.org/
+* "AppleDoc":http://gentlebytes.com/appledoc/ - API文档生成器
+* "ConciseKit":https://github.com/petejkim/ConciseKit - 用Macros简化ObjectiveC开发
+* "CocosBuilder":http://cocosbuilder.com/ - Cocos场景编辑器
+
+h3. Utility Class
+* "AFNetworking":https://github.com/AFNetworking/AFNetworking - 好用的网络请求库 for iOS and OS X
+* *iOS*
+* "SSToolkit":http://sstoolk.it/ - 一些常用数据操作和 UI 部件的开源实现
+* "QuickDialog":https://github.com/escoz/QuickDialog - 简单易用的TableViews类
+* "Core Plot":http://code.google.com/p/core-plot/ - 图表库
+* "Tree20":https://github.com/facebook/three20 - Facebook发布的一套开源类库
+* "BaseKit":https://github.com/brunow/BaseKit - BaseKit is a set of IOS class to make your life easier.
+
+h3. Framewok
+* *Network*
+** "RestKit":http://restkit.org/ ("Github":https://github.com/RestKit/RestKit) - RESTful 工具包 RestKit for iOS and OS X
+* *Game*
+** "Cocos2D":http://www.cocos2d-iphone.org/
+
+h3. UI设计相关网站
+* "iOS Inspires Me":http://iosinspires.me/
+* 手机 UI 相关
+** "Pttrns":http://pttrns.com/
+** "Patterns of Design":http://www.patternsofdesign.co.uk/
+** "Mobile UI Patterns":http://mobile-patterns.com/
+* iPhone UI 相关
+** "TapFancy":http://tapfancy.com/
+** "TappGala":http://www.tappgala.com/
+** "Well-Placed Pixels":http://wellplacedpixels.com/
+** "LovelyUI":http://www.lovelyui.com/
+** "Building iPhone Apps":http://buildingiphoneapps.posterous.com/
+* iPad UI 相关
+** "Landing Pad":http://landingpad.org/
+** "Stylish iPad Apps":http://stylishipadapps.tumblr.com/
+** "Stylapps":http://itunes.apple.com/us/app/stylapps/id444930066
+* iOS网站相关
+** "AppSites":http://www.appsites.com/
+
+h3. Open Source Projects
+
+* *Mac OS X*
+** "GoAgentX":https://github.com/ohdarling/GoAgentX
+
+* *iOS*
+** "Tiny Wings":https://github.com/haqu/tiny-wings
+
+h3. API
+* "Google Reader API":http://code.google.com/p/r2-release/wiki/GoogleReaderApi#google_reader_api_
+
+h3. References
+
+* *iOS*
+** "iOS Dev Weekly":http://iosdevweekly.com/
+** "iOS Design Weekly":http://iosdesign.co/
+
+* "XCode快捷键图示":/uploads/xcode.jpg
+
+h3. Other
+
+* *Downloads*
+** "iMZDL":http://imzdl.com/ - 苹果官方相关软件下载
+
+
+
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />

@@ -1,0 +1,183 @@
+---
+layout: default
+title: OS X - Software
+---
+
+<div id="charpter">
+h3. Contents
+* "常用":#commonly-used
+* "媒体相关":#entertainment
+* "网络相关":#network
+* "开发相关":#development
+** "编辑器/IDE":#editor
+** "版本管理工具":#version
+*** "SVN":#svn
+*** "Git":#git
+*** "Mercurial":#hg
+** "实用工具":#useful
+** "服务器软件":#server
+** "游戏相关":#game
+* "设计相关":#design
+** "网页":#design-web
+** "图形":#design-img
+** "其他":#design-other
+* "效率":#productivity
+* "系统相关":#system
+</div>
+
+h1. Mac OS X
+
+h3(#commonly-used). 常用
+* "QQ输入法":http://shurufa.qq.com/mac/
+* "WBIM for Mac OS X":http://www.pawpawsoft.com - 万寿果五笔输入法，支持临时拼音
+* "Keka":http://www.kekaosx.com/ - 简洁实用的压缩软件
+* "BetterZip":http://macitbetter.com/ - 功能强大的压缩软件
+* "CopyPaste":http://plumamazing.com/mac/copypaste - 剪贴板增强工具
+* "有道翻译":http://cidian.youdao.com/mac/
+* "MacPorts":http://www.macports.org/ - 类似于Linux下apt-get或yum的软件包管理工具
+* "Homebrew":http://mxcl.github.com/homebrew/ - 同上
+* "Fink":http://www.finkproject.org/ - 同上
+* "Brew":https://github.com/mxcl/homebrew - 软件包管理新秀
+* "iStat Menus":http://bjango.com/mac/istatmenus/ - 在托盘栏显示系统硬件信息的工具
+* "CHM View":http://itunes.apple.com/us/app/chm-view/id449814591?mt=12 - 查看chm文件
+* "Changes":http://connectedflow.com/ - 文件、目录对比工具
+* "Name Changer":http://www.mrrsoftware.com/MRRSoftware/NameChanger.html - 批量命名利器
+
+h3(#entertainment). 媒体
+* "Enqueue":http://www.enqueueapp.com/
+* "Vox":http://voxapp.didgeroo.com/ - 简洁小巧的音乐播放器
+* "Sonora":http://getsonora.com - 音乐播放器
+* "MplayerX":http://mplayerx.org/ - 强大的视频播放器
+* "StreamToMe":http://projectswithlove.com/streamtome/ - 服务端(Windows/MacOS)实现实时转码电影为流媒体，供远程客户端在线观看
+* "Simplier":http://simplier.com/ - 轻量级音乐播放器
+* "Cog":http://cogx.org/ - 音乐播放器
+* "Xee":http://wakaba.c3.cx/s/apps/xee - 看图工具
+* "Perian":http://perian.org/ - 可以让quicktime支持更多格式
+
+h3(#network). 网络
+* "Leech":http://manytricks.com/leech/ - 简洁实用的下载工具
+* "Google Chrome":http://www.google.com/chrome
+* "SimpleSSHProxy":http://ivsays.appspot.com/2011/05/16/get-SimpleSSHProxy.html - 简洁实用的ssh代理软件
+* "autossh":http://www.harding.motd.ca/autossh/ - 可用homebrew安装，支持开始运行及断线重连
+* "Shimo":http://www.chungwasoft.com/shimo/ - 支持VPN和SSH的客户端软件（支持开机启动和自动连接）
+* "GoAgentX":https://github.com/ohdarling/GoAgentX - goagent的图形化版
+* "Proxychains Formula":https://github.com/lxneng/homebrew/commit/25da1bef5a9631315e078a5124c91ec785ff5efe - 可以使终端命令用上代理，可以用Homebrew安装(brew install proxychains)，感谢 "lxneng":http://lxneng.com 
+* "SSH Tunnel Manager":http://itunes.apple.com/us/app/ssh-tunnel-manager/id424470626?l=fr&mt=12 - Shimo无法创建SSH连接时要先安装这个
+* "iSSH":http://macserve.org.uk/projects/issh/ - 将ssh转换为sock使用
+* "iSSH-improved":http://code.google.com/p/issh-improved/ - iSSH的第三方发进版本
+* "Secret Socks":http://nihilex.com/secret-socks - 功能和iSSH类似
+* "Transmit":http://www.panic.com/transmit/ - FTP客户端软件
+* "Filezilla":http://filezilla-project.org/ - 免费FTP软件（客户端和服务端）
+* "Cyberduck":http://lightcss.com/mac-software-collect/ - 免费的FTP客户端软件
+* "ProxyCap":http://www.proxycap.com/ - 可以让不支持代理的程序支持代理
+* "Proxifier":http://www.proxifier.com/mac_download.htm - 同上
+* "Charles":http://www.charlesproxy.com/ - 类似于Windows下fiddler的http调试工具
+* "Mint":http://uedidea.com/mint/ - 新浪客户端
+* "Private Eye":http://radiosilenceapp.com/private-eye - 实时网络连接监控工具
+* "TeamViewer":http://www.teamviewer.com - 远程控制工具
+* "Reeder":http://reederapp.com/ - RSS阅读器
+* "breakwall":http://code.google.com/p/breakwall/
+* "Notify":http://vibealicious.com/apps/notify/ - 邮件提醒，支持多帐号
+* "Little Snitch":http://www.obdev.at/products/littlesnitch/index.html - 控制应用程序访问网络
+
+h3(#development). 开发
+
+* *(#editor)编辑器/IDE*
+** "Tincta":http://mr-fridge.de/software/tincta/index.php - 文本编辑器
+** "MacVim":http://code.google.com/p/macvim/
+** "AppCode":http://www.jetbrains.com/objc/ - an Objective-C IDE That Makes a Defference
+** "TextMate":http://macromates.com/ - 代码编辑工具
+** "Sublime Text":http://wiki.junnan.org/software/sublime-text.html
+** "Coda":http://www.panic.com/coda/ - 支持FTP/SFTP等连接方式的代码编辑工具
+*** "Tabster":http://code.google.com/p/tabsterforcoda/ - 能够使Coda支持多行缩进的插件
+** "BBEdit":http://www.barebones.com/products/bbedit/ - BBEdit is the leading professional HTML and text editor for the Macintosh. 
+** "Chocolat":http://chocolatapp.com/ - 功能类似textmate的编辑器
+** "TextWrangler":http://www.barebones.com/products/textwrangler/ - TextWrangler is the “little brother” to BBEdit
+** "Vico":http://www.vicoapp.com/ - 类似于VIM的可视化代码编辑工具
+** "xmplify":http://xmplifyapp.com/ - XML编辑器
+** "Espresso":http://macrabbit.com/espresso/ 前段web集成开发环境
+** "0xED":http://www.suavetech.com/0xed/0xed.html - 16进制编辑器
+** "Mou":http://mouapp.com/ - markdown编辑器
+** "CssEdit":http://macrabbit.com/cssedit/ - 完美的CSS编辑器
+
+* *(#version)版本管理*
+** *(#svn)SVN*
+*** "Versions":http://versionsapp.com/ - SVN客户端
+*** "Cornerstone":http://www.zennaware.com/cornerstone/index.php - SVN客户端
+** *(#git)Git*
+*** "Github":http://mac.github.com - 免费的github官方客户端
+*** "Gitifier":http://psionides.github.com/gitifier/Github - 代码库监控器
+*** "Gitbox":http://www.gitboxapp.com/
+*** "Tower":http://www.git-tower.com/
+*** "GitX==(L)==":http://gitx.laullon.com/
+*** "Gity":http://gityapp.com/
+*** "Gitti":http://www.gittiapp.com/
+** *(#hg)Mercurial*
+*** "MacHg":http://jasonfharris.com/machg/
+
+* *(#useful)实用工具*
+** "OSX GCC Installer":https://github.com/kennethreitz/osx-gcc-installer - 不用为了安装GCC而安装Xcode
+** "Codebox":http://www.codeboxapp.com/ - 代码管理工具，可以高亮显示，按语言分类
+** "Dash":http://kapeli.com/dash/ - 代码管理工具
+** "JSTalk Editor":http://jstalk.org/ - 基于JS脚本的系统自动化工具
+** "Reggy":http://reggyapp.com/ - 正则表达式测试工具
+
+* *(#server)服务器软件*
+** "XAMPP for Mac":http://www.apachefriends.org/en/xampp-macosx.html - 方便搭建MAMP环境
+** "Querious":http://www.araelium.com/querious/ - MySQL管理工具
+** "Sequel Pro":http://www.sequelpro.com/ - 同上，免费
+
+* *(#game)游戏相关*
+** "stencyl":http://www.stencyl.com/ - 傻瓜游戏制作工具
+
+h3(#design). 设计
+* *(#design-web)网页*
+** "SpriteRight":http://itunes.apple.com/us/app/spriteright/id488584662?mt=12 - CSS必备工具
+* *(#design-img)图形*
+** "img2icns":http://www.img2icnsapp.com/ - 简单实用的图像转成图标小工具
+** "ImageOptim":http://imageoptim.pornel.net/ - 无损图片压缩工具
+** "TexturePacker":http://www.texturepacker.com/ - 一款跨平台的SpriteSheet制作软件
+** "OmniGraffle":http://www.omnigroup.com/products/omnigraffle/ - 经典的思维导图制作软件
+** "Skitch":http://skitch.com/ - 实用免费的图片编辑器
+** "ImageBot":http://ftnew.com/ - 批量图片处理工具
+** "EasyBatchPhoto":http://yellowmug.com/easybatchphoto/ - 更简洁实用的批量图片处理
+** "Layers":http://layersapp.com/index.html - 截图工具，支持将截取的图片分层保存
+** "GuideGuide":http://www.guideguide.me/ - 一款photoshop的加强版辅助线插件
+** "xScope":http://xscopeapp.com/ - 设计工具，度量距离和角度标尺，精确垂直和水平辅助线等等
+* *(#design-other)其他*
+** "Color Picker Pro":http://fructivity.com/ - 免费实用的取色工具
+** "Pochade":http://www.fuelcollective.com/pochade - 轻巧实用的取色软件
+** "Skim":http://skim-app.sourceforge.net/ - PDF编辑软件
+** "PDFpenPro":http://smilesoftware.com/PDFpenPro/ - 同上
+
+h3(#productivity). 效率
+* "Alfred":http://www.alfredapp.com/ - 替换系统Spotlight的免费软件，更美观更强大
+* "Evernote":http://evernote.com/ - 免费跨平台网络同步型笔记资料管理软件
+* "Wunderlist":http://www.6wunderkinder.com/wunderlist/ - 免费跨平台的任务管理工具
+* "Anxiety":http://www.anxietyapp.com/ - 简洁小巧的任务管理工具
+
+h3(#system). 系统工具
+* "TotalFinder":http://totalfinder.binaryage.com/ - 增强型文件管理器
+* "PathFinder":http://cocoatech.com/ - 同上
+* "HyperDock":http://hyperdock.bahoom.com/ - 让Dock程序显示预览窗口
+* "Steermouse":http://plentycom.jp/steermouse/ - 鼠标调整工具
+* "LaunchBar":http://www.obdev.at/products/launchbar - 程序启动管理工具
+* "iTerm2":https://github.com/gnachman/iTerm2 - 第三方终端
+* "oh-my-zsh":https://github.com/robbyrussell/oh-my-zsh - zsh的安装配置文件， "安装方法":http://www.yangzhiping.com/tech/zsh-oh-my-zsh.html
+** "sjl-oh-myzsh":https://github.com/sjl/oh-my-zsh - 官方oh-my-zsh的一个分支, "安装介绍1":http://leeiio.me/bash-to-zsh-for-mac/ / "安装介绍2":http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/#screenshots
+* "Growl":http://growl.info/ - 系统托盘提醒工具
+* "DoubleCommand":http://doublecommand.sourceforge.net/ - 系统键位映射修改工具
+* "Kext Helper":http://cheetha.net/ - kext安装工具
+* "PropEdit":http://www.eosgarden.com/en/freeware/propedit/ - 免费的批量文件权限管理软件
+* "Paragon NTFS for Mac":http://www.paragon-software.com/home/ntfs-mac/ - 进行NTFS分区读写，支持lion
+* "NTFSMounter":http://ntfsmounter.com/ - 可读写NTFS格式分区文件的工具 - 不支持lion
+* "Tuxera NTFS":http://www.tuxera.com/products/tuxera-ntfs-for-mac/ - 功能同上，收费软件
+* "MiniUsage":http://homepage.mac.com/nsekine/SYW/software/english/miniusage/index.html - 系统信息显示菜单
+* "AppCleaner":http://www.freemacsoft.net/ - 应用卸载清理工具
+* "Shiftit":http://code.google.com/p/shiftit/ - 通过快捷键管理窗口布局的小工具
+* "Mactracker":http://mactracker.ca/ - 提供当前Mac的所有软硬件信息
+* "Gas Mask":http://code.google.com/p/gmask/ - 方便实用的hosts文件管理工具
+* "cdto":https://code.google.com/p/cdto/ - 可以在Finder右上角加个Terminal图标，方便在当前路径打开控制台
+* "Day-O":http://www.shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock
+* "CharlesSoft":http://www.charlessoft.com/ - 提取安装包中的文件
+* "ControlPlane":http://www.controlplaneapp.com/ - 根据不同环境使用不同配置（比如：更改默认浏览器，关闭WIFI使用有线等）

@@ -1,0 +1,9 @@
+---
+layout: default
+title: iOS - Software
+---
+h1. iOS
+
+h3. Development
+* "Textastic Code Editor":http://www.textasticapp.com/ - Textastic is a fast and versatile text editor with powerful support for syntax highlighting. 
+* "Prompt":http://itunes.apple.com/us/app/prompt/id421507115?mt=8 - 命令行工具
