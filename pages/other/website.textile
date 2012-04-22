@@ -60,3 +60,18 @@ h3. 娱乐
 ** "NatureSound":http://naturesound.org/
 ** "RainyMood":http://www.rainymood.com/
 ** "NatureSoundsForMe":http://naturesoundsfor.me
+
+h3. 如何设置和修改网页地址栏图标favicon.ico
+favicon.ico是什么文件？
+
+favicon是Favorites Icon的缩写，favicon.ico是指显示在浏览器收藏夹和地址栏网站网址前面的个性化图标。
+如何设置和修改favicon.ico图标？
+
+两个步骤：
+
+1，把做好的favicon.ico图标文件上传到网站根目录；
+
+2，把以下代码放到网页Html代码中的<head>部分：
+
+<link rel=”icon” href=”/favicon.ico” mce_href=”/favicon.ico” type=”image/x-icon”>
+<link rel=”shortcut icon” href=”/favicon.ico” mce_href=”/favicon.ico” type=”image/x-icon”>
